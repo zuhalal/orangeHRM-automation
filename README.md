@@ -2,7 +2,7 @@
 ## Sanbercode Final Project
 ### By: Zuhal 'Alimul Hadi
 #### New Things I've Learnt:
-* How to test web application using selenium python
+* How to automate test for web application using selenium python
 * How to make automation test case based on manual testing report
 #### Supporting Docs:
 * Test Case: https://drive.google.com/drive/folders/1MHQmcdDZ0pH46K-IqhgdKXyGerSMjyLR?usp=sharing
