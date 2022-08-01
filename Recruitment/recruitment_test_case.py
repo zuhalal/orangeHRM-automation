@@ -48,8 +48,11 @@ class TestRecruitment(unittest.TestCase):
             if el.text == "Download":
                 el.click()
                 self.assertIn(el.text, "Download")
+                break
         
         time.sleep(2)
+        is_not_found = driver.find_element(By.CSS_SELECTOR, "td").text
+        self.assertTrue(is_not_found)
 
     def tearDown(self): 
         self.driver.close()
